@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "7ec7",
+      "category": "cloth",
+      "p_name": "shirt",
+      "p_price": "800",
+      "p_desc": "shirt"  
+    },
+    {
+      "id": "267d",
+      "category": "toy",
+      "p_name": "bike",
+      "p_price": "1500",
+      "p_desc": "bike"
+    },
+    {
+      "id": "ec26",
+      "category": "electronics",
+      "p_name": "mobile",
+      "p_price": "10000",
+      "p_desc": "mobile"
+    },
+    {
+      "id": "cc21",
+      "category": "electronics",
+      "p_name": "shirt",
+      "p_price": "150",
+      "p_desc": "etr"
+    },
+    {
+      "id": "8bb1",
+      "category": "cloth",
+      "p_name": "shirt",
+      "p_price": "10000",
+      "p_desc": "shirt"
+    }
+  ],
+  "users": []
+}
