@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import Header from "./layout/Header"
 import Footer from "./layout/Footer"
-import ProductForm from "./layout/pages/productform"
-import ProductList from "./layout/pages/productList"
+import ProductForm from "./layout/pages/ProductForm"
+import ProductList from "./layout/pages/ProductList"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
