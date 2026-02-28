@@ -30,6 +30,7 @@ const ProductForm = () => {
     if (productId == null) {
 
       await axios.post(`${import.meta.env.VITE_API_URL}/products`, data);
+      console.log(data)
 
       toast.success("Product Added Successfully", {
         position: "top-right",
@@ -68,7 +69,7 @@ const ProductForm = () => {
 
           <div className="mt-3">
             <select className="form-select" {...register("p_category")}>
-              <option value="">-- select category --</option>
+              <option value="" disabled selected>-- select category --</option>
               <option value="cloth">Cloth</option>
               <option value="toy">Toy</option>
               <option value="electronics">Electronics</option>
